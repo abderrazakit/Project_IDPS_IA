@@ -59,3 +59,48 @@
 [85145 - Suricata-Main] 2025-11-24 17:05:45 Info: runmodes: eth0: creating 4 threads
 [85281 - W#01-eth0] 2025-11-24 17:05:45 Info: ioctl: eth0: MTU 1500
 [85145 - Suricata-Main] 2025-11-24 17:05:45 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[85145 - Suricata-Main] 2025-11-24 21:12:26 Notice: suricata: Signal Received.  Stopping engine.
+[85145 - Suricata-Main] 2025-11-24 21:12:26 Info: suricata: time elapsed 14801.847s
+[85145 - Suricata-Main] 2025-11-24 21:12:27 Info: counters: Alerts: 8
+[85145 - Suricata-Main] 2025-11-24 21:12:28 Notice: device: eth0: packets: 22155, drops: 0 (0.00%), invalid chksum: 0
+[62082 - Suricata-Main] 2025-11-25 18:52:53 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[62082 - Suricata-Main] 2025-11-25 18:52:53 Info: cpu: CPUs/cores online: 4
+[62082 - Suricata-Main] 2025-11-25 18:52:53 Info: suricata: Setting engine mode to IDS mode by default
+[62082 - Suricata-Main] 2025-11-25 18:52:53 Info: exception-policy: master exception-policy set to: auto
+[62083 - Suricata-Main] 2025-11-25 18:52:54 Info: suricata: Preparing unexpected signal handling
+[62083 - Suricata-Main] 2025-11-25 18:52:54 Info: logopenfile: fast output device (regular) initialized: fast.log
+[62083 - Suricata-Main] 2025-11-25 18:52:54 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[62083 - Suricata-Main] 2025-11-25 18:52:54 Info: logopenfile: stats output device (regular) initialized: stats.log
+[62083 - Suricata-Main] 2025-11-25 18:53:02 Info: detect: 1 rule files processed. 46449 rules successfully loaded, 0 rules failed, 0 rules skipped
+[62083 - Suricata-Main] 2025-11-25 18:53:02 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[62083 - Suricata-Main] 2025-11-25 18:53:03 Info: detect: 46452 signatures processed. 970 are IP-only rules, 4422 are inspecting packet payload, 40827 inspect application layer, 110 are decoder event only
+[62083 - Suricata-Main] 2025-11-25 18:53:04 Notice: mpm-hs: Rule group caching - loaded: 113 newly cached: 0 total cacheable: 113
+[62083 - Suricata-Main] 2025-11-25 18:53:04 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[62083 - Suricata-Main] 2025-11-25 18:53:04 Info: runmodes: eth0: creating 4 threads
+[62177 - W#01-eth0] 2025-11-25 18:53:05 Info: ioctl: eth0: MTU 1500
+[62083 - Suricata-Main] 2025-11-25 18:53:05 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
+[62083 - Suricata-Main] 2025-11-25 18:53:22 Notice: suricata: Signal Received.  Stopping engine.
+[62083 - Suricata-Main] 2025-11-25 18:53:23 Info: suricata: time elapsed 18.176s
+[62083 - Suricata-Main] 2025-11-25 18:53:24 Info: counters: Alerts: 0
+[62083 - Suricata-Main] 2025-11-25 18:53:24 Notice: device: eth0: packets: 0, drops: 0 (0.00%), invalid chksum: 0
+[62450 - Suricata-Main] 2025-11-25 18:53:31 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[62450 - Suricata-Main] 2025-11-25 18:53:31 Info: cpu: CPUs/cores online: 4
+[62450 - Suricata-Main] 2025-11-25 18:53:31 Info: suricata: Setting engine mode to IDS mode by default
+[62450 - Suricata-Main] 2025-11-25 18:53:31 Info: exception-policy: master exception-policy set to: auto
+[62451 - Suricata-Main] 2025-11-25 18:53:31 Info: suricata: Preparing unexpected signal handling
+[62451 - Suricata-Main] 2025-11-25 18:53:31 Info: logopenfile: fast output device (regular) initialized: fast.log
+[62451 - Suricata-Main] 2025-11-25 18:53:31 Info: logopenfile: eve-log output device (regular) initialized: eve.json
+[62451 - Suricata-Main] 2025-11-25 18:53:31 Info: logopenfile: stats output device (regular) initialized: stats.log
+[62497 - Suricata-Main] 2025-11-25 18:53:35 Notice: suricata: This is Suricata version 8.0.2 RELEASE running in SYSTEM mode
+[62497 - Suricata-Main] 2025-11-25 18:53:35 Info: cpu: CPUs/cores online: 4
+[62497 - Suricata-Main] 2025-11-25 18:53:35 Info: suricata: Setting engine mode to IDS mode by default
+[62497 - Suricata-Main] 2025-11-25 18:53:35 Info: exception-policy: master exception-policy set to: auto
+[62497 - Suricata-Main] 2025-11-25 18:53:36 Error: pidfile: pid file '/var/run/suricata.pid' exists and Suricata appears to be running. Aborting!
+[62451 - Suricata-Main] 2025-11-25 18:53:39 Info: detect: 1 rule files processed. 46449 rules successfully loaded, 0 rules failed, 0 rules skipped
+[62451 - Suricata-Main] 2025-11-25 18:53:39 Info: threshold-config: Threshold config parsed: 0 rule(s) found
+[62451 - Suricata-Main] 2025-11-25 18:53:39 Info: detect: 46452 signatures processed. 970 are IP-only rules, 4422 are inspecting packet payload, 40827 inspect application layer, 110 are decoder event only
+[62451 - Suricata-Main] 2025-11-25 18:53:41 Notice: mpm-hs: Rule group caching - loaded: 113 newly cached: 0 total cacheable: 113
+[62451 - Suricata-Main] 2025-11-25 18:53:41 Info: unix-manager: unix socket '/var/run/suricata/suricata-command.socket'
+[62451 - Suricata-Main] 2025-11-25 18:53:41 Info: runmodes: eth0: creating 4 threads
+[62540 - W#01-eth0] 2025-11-25 18:53:41 Info: ioctl: eth0: MTU 1500
+[62451 - Suricata-Main] 2025-11-25 18:53:41 Notice: threads: Threads created -> W: 4 FM: 1 FR: 1   Engine started.
